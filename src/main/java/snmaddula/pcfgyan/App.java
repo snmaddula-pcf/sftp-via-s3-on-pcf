@@ -23,7 +23,9 @@ import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 
 import lombok.Setter;
-
+/**
+ * @author snmaddula
+ */
 @Setter
 @RestController
 @ConfigurationProperties("vcap.services.sftp-poc-s3.credentials")
