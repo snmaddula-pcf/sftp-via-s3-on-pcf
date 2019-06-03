@@ -1,0 +1,9 @@
+---
+applications:
+- name: sftp-via-s3-on-pcf
+  instances: 1
+  memory: 1G
+  disk_quota: 1G
+  path: "target/sftp-via-s3-on-pcf.jar"
+  services:
+  - sftp-poc-s3
